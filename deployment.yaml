@@ -25,16 +25,8 @@ metadata:
 spec:
   type: NodePort
   selector:
-<<<<<<< HEAD
-   app: html-demo
-  ports:
-  - port: 80
-    targetPort: 80
-    nodePort: 30010
-=======
     app: html-demo
   ports:            # This must be inside 'spec'
   - port: 80
     targetPort: 80
     nodePort: 30010
->>>>>>> 7c83bd33138c747705fd61424db070320470e02f
